@@ -47,8 +47,9 @@ h2c:
   enabled: true
 
 # enable tls on the podinfo service
+# Let's do tls too. Why not. 
 tls:
-  enabled: false
+  enabled: true
   # the name of the secret used to mount the certificate key pair
   secretName:
   # the path where the certificate key pair will be mounted
